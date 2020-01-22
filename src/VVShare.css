@@ -1,0 +1,113 @@
+@import "./assets/font/iconfont.css";
+
+.vvshare-wrapper {
+  padding: 0;
+}
+.vvshare-item {
+  list-style: none;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  opacity: 1;
+  text-align: center;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.vvshare-item:hover {
+  top: -5px;
+  opacity: 0.75;
+}
+.vvshare-item i {
+  display: block;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.vvshare-facebook {
+  background-color: #4267b2;
+}
+.vvshare-twitter {
+  background-color: #55acee;
+}
+.vvshare-linkedin {
+  background-color: #0077b5;
+}
+.vvshare-weibo {
+  background-color: #ff9933;
+}
+.vvshare-weixin {
+  background-color: #4ec034;
+}
+
+#qrcode-win-wrap {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.qrcode-win-content {
+  color: #fff;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+}
+.qrcode-win-content-m {
+  min-width: 80%;
+}
+.qrcode-win-title {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+.qrcode-win-code {
+  margin: 30px auto;
+}
+.qrcode-win-des {
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgba(35, 35, 35, 0.7);
+  border-radius: 999em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35) inset;
+  padding: 10px 30px;
+  display: inline-block;
+}
+
+#qrcode-copyurl {
+  width: 96%;
+  border: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 2%;
+  overflow: hidden;
+  font-size: 14px;
+}
+#qrcode-copybtn {
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0;
+  margin: 10px auto;
+  cursor: pointer;
+}

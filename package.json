@@ -1,0 +1,46 @@
+{
+  "name": "vvshare",
+  "version": "1.0.0",
+  "description": "简易 react 分享组件",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "keywords": [
+    "share",
+    "vvshare"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hubcodemke/VVShare"
+  },
+  "author": {
+    "name": "yanjianli",
+    "email": "258689082@qq.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "copy-to-clipboard": "^3.2.0",
+    "qrcode": "^1.4.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

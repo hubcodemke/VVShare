@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "836715",
+      "name": "linkedin",
+      "font_class": "linkedin",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "1049682",
+      "name": "weixin",
+      "font_class": "weixin",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1261596",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "1546598",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "3876409",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    }
+  ]
+}
