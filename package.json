@@ -1,6 +1,6 @@
 {
   "name": "vvshare",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "简易 react 分享组件",
   "main": "dist/bundle.js",
   "files": [
