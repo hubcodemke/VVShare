@@ -28,6 +28,7 @@ const VVShare = ({
     marginRight,
     marginLeft
   };
+  url = encodeURIComponent(url); //对url进行编码  
   const handleClick = plat => {
     platClick({ plat, url, title, image, description });
   };

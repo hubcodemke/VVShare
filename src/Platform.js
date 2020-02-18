@@ -104,6 +104,7 @@ export function platClick({ plat, url, title, image, description }) {
       );
       break;
     case "weixin":
+      url = decodeURIComponent(url); //将url解码
       qrcodeWin({
         url,
         winTitle: "微信分享",
